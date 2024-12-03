@@ -1,4 +1,4 @@
-# Portfolio Terminal
+# Terminal Portfolio
 
 This is a terminal-based portfolio site built with React, Tailwind CSS, and Vite.js. It features a retro terminal interface with various commands to display information about me, my projects, my skills, and contact details.
 
