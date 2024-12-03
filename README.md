@@ -23,8 +23,8 @@ This is a terminal-based portfolio site built with React, Tailwind CSS, and Vite
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/hhussain04/hhussain04.github.io.git
-    cd portfolio-terminal
+    git clone https://github.com/hhussain04/terminalwebsite
+    cd terminalwebsite
     ```
 
 2. Install dependencies:
