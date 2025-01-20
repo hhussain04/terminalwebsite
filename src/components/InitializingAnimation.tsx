@@ -6,15 +6,10 @@ const InitializingAnimation: React.FC<{ onComplete: () => void }> = ({ onComplet
   const [currentMessage, setCurrentMessage] = useState('');
   const [showLoadingAnimation, setShowLoadingAnimation] = useState(false);
   const loadingMessages = [
-    'Loading assets...',
-    'Initializing components...',
-    'Setting up environment...',
-    'Fetching data...',
-    'Starting application...',
-    'Installing dependencies...',
-    'Configuring system settings...',
-    'Finalizing setup...',
-    'Installation complete.'
+    'Cloning repositories...',
+    'Compiling code...',
+    'Running tests...',
+    'Deploying application...'
   ];
 
   useEffect(() => {

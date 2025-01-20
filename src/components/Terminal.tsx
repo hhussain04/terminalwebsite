@@ -35,19 +35,22 @@ const Terminal: React.FC = () => {
     ABOUT: () => {
       setCurrentDirectory('/home/guest/portfolio/about');
         return [
-        '🔍 I am an aspiring Software Developer, Cyber-Security Enthusiast',
-        '    and Networking Professional',
-        '🌍 Based in London, UK',
-        '🎓 Currently working towards a Pearson BTEC Level 3 National Extended Diploma',
-        '    in Computing and an AS-Level in Mathematical Studies',
-        '',
-        '🖥️ Passionate about building innovative software solutions with a strong interest in',
-        '    cyber-security, UI and UX design, back-end data analysis & solutions, and networking.',
-        '💻 Currently learning and developing projects in Python, React, Rust, and web development.',
-        '🎮 Passionate about creating useful scripts and tools for gaming and general automation.',
+          'I am Humza Hussain, a passionate Software Developer, Cyber-Security Enthusiast,',
+          'and Networking Professional.',
+          '',
+          'Based in London, UK.',
+          '',
+          'Currently pursuing a Pearson BTEC Level 3 National Extended Diploma in Computing and an AS-Level in Mathematical Studies.',
+          '',
+          'I love building innovative software solutions and have a strong interest in',
+          'cyber-security, UI/UX design, back-end data analysis & solutions, and networking.',
+          '',
+          'Currently, I am learning and developing projects in Python, React, and general web development.',
+          '',
+          'I enjoy creating useful scripts and tools for gaming and general automation.',
         ];
-    },
-    PROJECTS: () => {
+          },
+          PROJECTS: () => {
       setCurrentDirectory('/home/guest/portfolio/projects');
       return [
         'PROJECT DATABASE LOADED:',
@@ -80,17 +83,31 @@ const Terminal: React.FC = () => {
       'Terminal: Portfolio V1.0'
     ],
     NEOFETCH: () => [
-      '       _______       Portfolio OS',
-      '      /       \\      -------------',
-      '     /  ___    \\     TERM: xterm-256color',
-      '    /  /   \\    \\    SHELL: portfolio-sh',
-      '   /  /     \\    \\   CPU: React 18.3.1',
-      '  /  /_______\\    \\  Memory: Infinite',
-      ' /______________\\   Uptime: Always',
-      '',
+      ` ⠀⠀⠀  
+        ⢸⣦⡀⠀⠀⠀⠀⢀⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⢸⣏⠻⣶⣤⡶⢾⡿ ⠀⢠⣄⡀⢀⣴⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+    ⠀⠀⣀⣼⠷⠀⠀⠁⢀⣿⠃⠀⠀⢀⣿⣿⣿⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+    ⠴⣾⣯⣅⣀⠀⠀⠀⠈⢻⣦⡀⠒⠻⠿⣿⡿⠿⠓⠂⠀⠀⢀⡇⠀⠀⠀⠀⠀⠀⠀
+    ⠀⠀⠀⠉⢻⡇⣤⣾⣿⣷⣿⣿⣤⠀⠀⣿⠁⠀⠀⠀⢀⣴⣿⣿⠀⠀⠀⠀⠀⠀⠀
+    ⠀⠀⠀⠀⠸⣿⡿⠏⠀⢀⠀⠀⠿⣶⣤⣤⣤⣄⣀⣴⣿⡿⢻⣿⡆⠀⠀⠀⠀⠀⠀
+    ⠀⠀⠀⠀⠀⠟⠁⠀⢀⣼⠀⠀⠀⠹⣿⣟⠿⠿⠿⡿⠋⠀⠘⣿⣇⠀⠀⠀⠀⠀⠀
+    ⠀⠀⠀⠀⠀⢳⣶⣶⣿⣿⣇⣀⠀⠀⠙⣿⣆⠀⠀⠀⠀⠀⠀⠛⠿⣿⣦⣤⣀⠀⠀
+    ⠀⠀⠀⠀⠀⠀⣹⣿⣿⣿⣿⠿⠋⠁⠀⣹⣿⠳⠀⠀⠀⠀⠀⠀⢀⣠⣽⣿⡿⠟⠃
+    ⠀⠀⠀⠀⠀⢰⠿⠛⠻⢿⡇⠀⠀⠀⣰⣿⠏⠀⠀⢀⠀⠀⠀⣾⣿⠟⠋⠁⠀⠀⠀
+    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠋⠀⠀⣰⣿⣿⣾⣿⠿⢿⣷⣀⢀⣿⡇⠁⠀⠀⠀⠀⠀
+    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠋⠉⠁⠀⠀⠀⠀⠙⢿⣿⣿⠇⠀⠀⠀⠀⠀⠀
+    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢿⠀⠀⠀⠀⠀⠀⠀⠀⠀ 
+  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀                           
+  `,
       '█▀▀▀▀ █▀▀▀▀ █▀▀▀▀   Theme: Retro Green',
-      '█▄▄▄▄ █▄▄▄▄ █▄▄▄▄   Resolution: Responsive'
+      '█▄▄▄▄ █▄▄▄▄ █▄▄▄▄   Resolution: Responsive',
+      'TERM: xterm-256color',
+      'SHELL: portfolio-sh',
+      'CPU: React 18.3.1',
+      'Memory: Infinite',
+      'Uptime: Always'
     ],
+
     DIR: () => [
       'Directory of /portfolio',
       '',
